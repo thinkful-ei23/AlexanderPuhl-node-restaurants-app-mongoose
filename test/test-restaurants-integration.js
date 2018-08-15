@@ -253,7 +253,6 @@ describe('Restaurants API resource', function() {
     //  3. assert that response has right status code
     //  4. prove that restaurant with the id doesn't exist in db anymore
     it('delete a restaurant by id', function() {
-
       let restaurant;
 
       return Restaurant
